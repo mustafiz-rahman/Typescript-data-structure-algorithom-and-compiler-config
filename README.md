@@ -1,0 +1,1 @@
+# Typescript-simple-algorithom-OOPs-and-compiler-config
