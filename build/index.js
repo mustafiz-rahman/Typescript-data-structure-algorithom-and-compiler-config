@@ -1,7 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Sorter_1 = require("./Sorter");
-var sorter = new Sorter_1.Sorter([10, 1, 3, 9, -8]);
+var NumbersCollection_1 = require("./NumbersCollection");
+var numbersCollection = new NumbersCollection_1.NumbersCollection([100000, 3, -5, 0]);
+var sorter = new Sorter_1.Sorter(numbersCollection);
 //const sorter = new Sorter('abdce');
 sorter.sort();
-console.log(sorter.collection);
+console.log(numbersCollection.data);
