@@ -1,4 +1,4 @@
-# Typescript-simple-algorithom-OOPs-and-compiler-config
+# Typescript-data-structure-algorithom-and-compiler-config
 
 Topic: 1
     TO config a tscompilor here I used nodemon and concurrently.
