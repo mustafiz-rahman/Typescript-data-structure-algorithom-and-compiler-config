@@ -13,15 +13,14 @@ var CharatersCollection = /** @class */ (function () {
         configurable: true
     });
     CharatersCollection.prototype.compare = function (leftIndex, rightIndex) {
-        return (this.data[leftIndex].toLowerCase() >
-            this.data[rightIndex].toLowerCase());
+        return (this.data[leftIndex].toLowerCase() > this.data[rightIndex].toLowerCase());
     };
     CharatersCollection.prototype.swap = function (leftIndex, rightIndex) {
-        var character = this.data.split('');
+        var character = this.data.split("");
         var temp = character[leftIndex];
         character[leftIndex] = character[rightIndex];
         character[rightIndex] = temp;
-        this.data = character.join('');
+        this.data = character.join("");
     };
     return CharatersCollection;
 }());
